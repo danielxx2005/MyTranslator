@@ -5,8 +5,6 @@ import (
 	"fmt"
 	"log"
 	"time"
-
-	"github.com/go-resty/resty/v2"
 )
 
 const apiKey = "YOUR_API_KEY"
@@ -54,5 +52,6 @@ func main() {
 	fmt.Printf("Weather for %s from %s to %s:\n", location, startDate, endDate)
 	for _, day := range weatherData.Days {
 		fmt.Printf("Date: %s, Temperature: %.2f°C, Precipitation: %.2fmm\n", day.Date, day.Temperature, day.Precipitation)
+		// this is my first comment
 	}
 }
