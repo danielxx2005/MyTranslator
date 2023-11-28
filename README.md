@@ -1,2 +1,2 @@
-# MyWeather
-It is a weather app which leverages google weather service to do weather forecast for all cities in the world
+# My Translator
+It is a translator app which can help you translate.
